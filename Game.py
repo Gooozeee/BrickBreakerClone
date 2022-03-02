@@ -206,7 +206,10 @@ class LeaderBoardOne(tk.Frame):
         conn.close()
 
         #Getting the tuples seperate to be able to print them seperately
-        names, results = zip(*result)
+        try:
+            names, results = zip(*result)
+        except:
+            return
         
         titles = '''NAME                                                                                                                                          SCORE'''
                      
@@ -251,7 +254,10 @@ class LeaderBoardTwo(tk.Frame):
         conn.close()
 
         #Getting the tuples seperate to be able to print them seperately
-        names, results = zip(*result)
+        try:
+            names, results = zip(*result)
+        except:
+            return
         
         titles = '''NAME                                                                                                                                          SCORE'''
                      
@@ -296,7 +302,10 @@ class LeaderBoardThree(tk.Frame):
         conn.close()
 
         #Getting the tuples seperate to be able to print them seperately
-        names, results = zip(*result)
+        try:
+            names, results = zip(*result)
+        except:
+            return
         
         titles = '''NAME                                                                                                                                          SCORE'''
                      
@@ -341,7 +350,10 @@ class LeaderBoardFour(tk.Frame):
         conn.close()
 
         #Getting the tuples seperate to be able to print them seperately
-        names, results = zip(*result)
+        try:
+            names, results = zip(*result)
+        except:
+            return
         
         titles = '''NAME                                                                                                                                          SCORE'''
                      
@@ -386,7 +398,10 @@ class LeaderBoardFive(tk.Frame):
         conn.close()
 
         #Getting the tuples seperate to be able to print them seperately
-        names, results = zip(*result)
+        try:
+            names, results = zip(*result)
+        except:
+            return
         
         titles = '''NAME                                                                                                                                          SCORE'''
                      
